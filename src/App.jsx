@@ -47,7 +47,7 @@ function App() {
 					<User /> */}
 				</div>
 				<div className="fixed bottom-0  h-1/5 bg-slate-100  w-full lg:max-w-5xl">
-					<div className=" flex  bg-slate-100 justify-center flex-wrap p-4 fixed bottom-1/4  h-36 w-full lg:max-w-5xl  rounded-md shadow-md gap-y-4 gap-x-2">
+					<div className=" flex  bg-slate-100 justify-center flex-wrap p-4 fixed bottom-1/4  h-36 w-full lg:max-w-5xl  rounded-md shadow-md gap-y-4 gap-x-2 overflow-y-scroll md:overflow-y-hidden scrollbar-hide">
 						<h1 className="flex w-full justify-center font-semibold text-xl">
 							Prompt Suggestion For you
 						</h1>
